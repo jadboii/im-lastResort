@@ -23,15 +23,17 @@
 <body>
     <!-- navigation bar -->
     <nav class="nav">
-        <a href="#" class="brand-name">Barangay 48, Pasay City</a>
-        <ul class="nav-links">
-            <!-- pabago nalang href -->
-            <li><a href="indexDashBoard.php">Dashboard</a></li>
-            <li><a href="#">Application</a></li>
-            <li><a href="indexRead.php">SC List</a></li>
-        </ul>
-        <img class="logo-png" href="#" src="imgs/etc/pasay-small.png" alt="PasayLogo" id="brngyPic" />
-    </nav>
+            <div class="brngyLbl">BARANGAY 48, PASAY CITY</div>
+            <ul class="navItems">
+                <li id="db"><a href="indexDashBoard.php">DASHBOARD</li>
+                <li id="af"><a href="indexApplicForm.php">ADD REC</li>
+                <li id="sc"><a href="indexRead.php">SENIOR CITIZENS</li>
+            </ul>
+
+            <div class="logo">
+                <a href="#"><img src="imgs/etc/pasay-small.png" alt="PasayLogo" id="brngyPic"></i></a>
+            </div>
+        </nav>
 
     <div class="container-apply">
 
@@ -134,6 +136,13 @@
 
             </div>                    
         </div>
+
+        <div class="floatParent2">
+    <a href="logout.php">
+        <div id="LogoutBtn">
+        </div>
+    </a>
+    </div>
 </body>
 
 </html>

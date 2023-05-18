@@ -18,7 +18,7 @@
 </head>
 <body>
     <form action ="index.php" method="post"> 
-    <img class="logo" src="logo.png" alt="BRGY 48 Logo">
+    <img class="logo" src="imgs/etc/logo.png" alt="BRGY 48 Logo">
         <h2></h2>
         <?php if(isset($_GET['error'])){ ?>
             <p class ="error"><?php echo $_GET['error']; ?></p>

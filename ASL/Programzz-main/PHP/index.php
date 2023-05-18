@@ -25,20 +25,20 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 
         $result = mysqli_query($conn, $sql);
 
-        if (mysqli_num_rows($result) === 1) {
-            $row = mysqli_fetch_assoc($result);
-            if ($row['username'] === $uname && $row['password'] === $pass) {
-                $_SESSION['username'] = $row['username'];
-                $_SESSION['name'] = $row['name'];
-                $_SESSION['id'] = $row['id'];
+            if (mysqli_num_rows($result) === 1) {
+                $row = mysqli_fetch_assoc($result);
+                if ($row['username'] === $uname && $row['password'] === $pass) {
+                    $_SESSION['username'] = $row['username'];
+                    $_SESSION['name'] = $row['name'];
+                    $_SESSION['id'] = $row['id'];
 
-                header("Location: indexDashboard.php");
+                    header("Location: indexDashboard.php");
+                    exit();
+                }
+            } else {
+                header("Location: login.php?error=Incorrect username or password");
                 exit();
             }
-        } else {
-            header("Location: login.php?error=Incorrect username or password");
-            exit();
-        }
     }
 } else {
     header("Location: login.php");

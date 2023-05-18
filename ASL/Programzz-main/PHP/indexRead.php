@@ -88,7 +88,8 @@ include "config/read.php";
                 #EditDat,
                 .floatParent,
                 .btnEdit,
-                .btnDel {
+                .btnDel,
+                .search-container {
                     visibility: hidden;
                 }
 

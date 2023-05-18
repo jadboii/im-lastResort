@@ -440,7 +440,7 @@ form input {
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
-  box-shadow: 4px 4px 14px rgba(255, 255, 255, 0.8);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
 }
 
 .floatParent2 {
@@ -459,13 +459,13 @@ form input {
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
-  box-shadow: 4px 4px 14px rgba(255, 255, 255, 0.8);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
 }
 
 .floatParent .rightBtn {
   width: 60px;
   height: 60px;
-  background: url(print.png);
+  background: url(imgs/etc/print.png);
   border-radius: 50%;
   background-repeat: no-repeat;
   background-color: rgb(86, 114, 185);
@@ -475,14 +475,14 @@ form input {
   float: left;
   margin: 0 auto;
   cursor: pointer;
-  box-shadow: 0 -2px 3px -1px rgb(202, 210, 230);
+  box-shadow: 0 -2px 3px -1px rgb(0, 0, 0);
 }
 
 .floatParent2 #LogoutBtn {
   background-size: 50% 50%;
   width: 60px;
   height: 60px;
-  background: url(Logout.png);
+  background: url(imgs/etc/Logout.png);
   background-size: 10px;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -493,13 +493,13 @@ form input {
   float: left;
   margin: 0 auto;
   cursor: pointer;
-  box-shadow: 0 -2px 3px -1px rgb(202, 210, 230);
+  box-shadow: 0 -2px 3px -1px rgb(0, 0, 0);
 }
 
 .floatParent .rightBtn:hover,
 .floatParent .rightBtn:focus,
 .floatParent .rightBtn:active {
-  box-shadow: 4px 4px 14px rgba(217, 217, 217, 0.9999);
+  box-shadow: 4px 4px 14px rgb(0, 0, 0);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }

@@ -125,10 +125,10 @@ $result = mysqli_query($con, $query);
 
 
     <div class="floatParent2">
-        <a href="imgs/etc/Logout.png">
-            <div id="LogoutBtn">
-            </div>
-        </a>
+    <a href="logout.php">
+        <div id="LogoutBtn">
+        </div>
+    </a>
     </div>
 </body>
 
